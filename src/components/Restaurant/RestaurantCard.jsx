@@ -16,6 +16,7 @@ const RestaurantCard = ({ restaurant }) => {
           <div className='flex justify-between items-center mt-4'>
             <div className="flex items-center gap-2 text-sm">
               <div className="text-sm text-gray-500">{restaurant.categories?.[0]}</div>
+              
               <div className='h-1 w-1 bg-gray-500 rounded-full'/>
               <span className='text-gray-500'>{restaurant.price}</span>
             </div>

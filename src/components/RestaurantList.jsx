@@ -16,10 +16,11 @@ const RestaurantList = () => {
   const [category, setCategory] = useState('');
   const [categories, setCategories] = useState([]);
 
-
   useEffect(() => {
     setLoading(true);
-    const url = category ? `${API_URL}?category=${encodeURIComponent(category)}` : API_URL;
+    const url = category
+      ? `${API_URL}/restaurants?category=${encodeURIComponent(category)}`
+      : `${API_URL}/restaurants`;
     fetch(url)
       .then(res => res.json())
       .then(data => {
@@ -30,7 +31,6 @@ const RestaurantList = () => {
   }, [category]);
 
 
-  // Helper: get price category index (0: $, 1: $$, 2: $$$, 3: $$$$)
   function getPriceCategoryIndex(val) {
     if (val == null) return 0;
     const digits = String(val).replace(/\D/g, '').length;
