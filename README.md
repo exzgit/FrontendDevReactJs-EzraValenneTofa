@@ -24,4 +24,4 @@ npm run dev
 - Project dihosting di: [Railway](https://railway.com)
 - Data menggunakan: [mockapi](mockapi.io)
 - Link project: https://erestaurant.up.railway.app/
-- Link Github: https://github.com/exzgit/FrontendDevReactJs---Ezra-Valenne-Tofa
+- Link Github: https://github.com/exzgit/FrontendDevReactJs-EzraValenneTofa
