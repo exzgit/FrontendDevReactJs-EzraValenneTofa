@@ -22,5 +22,5 @@ npm run dev
 ## Deployment
 
 - Project dihosting di: [Netlify](https://netlify.com)
-- Link project: https://ezrarestaurant.netlify.app
+- Link project: https://erestaurantdemo.netlify.app
 - Link Github: https://github.com/exzgit/FrontendDevReactJs---Ezra-Valenne-Tofa
